@@ -2,7 +2,7 @@ rule tageted_trojan_stage3 {
     meta:
       Author = "Tyron Howard"
       Engine = "VT"
-      Description = "Tacking 'new-age' trojan that is a javascript file in a wild"
+      Description = "Tracking 'new-age' trojan that is a javascript file in a wild"
       Created = "5.6.2019"
       Referance = ""
     strings:

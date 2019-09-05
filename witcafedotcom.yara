@@ -1,8 +1,8 @@
-rule witcafecafe 
+rule test_rule_witcafe 
 {
 	meta:
 		author = "Tyron Howard"
-		discription = "This is a test rule to flag on a certain image cached from on CDN for witcafe.com. "
+		discription = "This is a test rule to flag on a certain image cached on a CDN for witcafe[.]com. "
 		date = "9.4.2019"
 	strings:
 		$a = {ff d8 ff e0 00 10 4a 46 49 46} // File Signature
